@@ -4,19 +4,20 @@ There seem to be little information out there on basic examples so I try to prov
 
 ## Required tools
 
-Rust
+### Rust
+
 https://www.rust-lang.org/tools/install -> $curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-Wasmtime
+### Wasmtime
 https://wasmtime.dev -> $curl https://wasmtime.dev/install.sh -sSf | bash
 
-wasm32-wasip2 compilaton target
+### wasm32-wasip2 compilaton target
 $rustup target add wasm32-wasip2
 
-Cargo component
+### Cargo component
 $cargo install cargo-component
 
-WAC CLI
+### WAC CLI
 $cargo install wac-cli
 
 ## Notes

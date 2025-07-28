@@ -1,0 +1,17 @@
+[package]
+name = "component-a"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+wit-bindgen = { version = "0.43.0", features = ["macros"] }
+wit-bindgen-rt = "0.43.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[package.metadata.component]
+package = "component:component-a"
+
+[package.metadata.component.target]
+path = "wit" 

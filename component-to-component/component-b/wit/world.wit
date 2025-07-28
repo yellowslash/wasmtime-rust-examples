@@ -1,0 +1,15 @@
+package component:component-a;
+
+interface component-b-to-ext {
+    record hi-message {
+        message: string,
+        is-it-a-hi: bool
+    }
+
+    say-hi: func(name: string) -> hi-message;
+}
+
+/// An example world for the component to target.
+world component-b {
+    export component-b-to-ext;
+}

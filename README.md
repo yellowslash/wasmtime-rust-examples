@@ -2,6 +2,9 @@
 
 There seem to be little information out there on basic examples so I try to provide them.
 
+This project assumes a basic knowledge of the wasmtime environment, tools, concepts, etc.
+It is not meant to be a kickstarter into the subject.
+
 ## Required tools
 
 ### Rust
